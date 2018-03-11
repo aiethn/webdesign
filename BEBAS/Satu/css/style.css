@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#bagian1{
+	background : linear-gradient(to bottom,rgba(65,131,215,0.90), 
+		rgba(133,216,206,0.80)), url(../img/Bag1.jpg);
+	background-size: cover;
+	color: white;
+	height : 100vh;
+	width: auto;
+	padding-right: 200px;
+	padding-left: 200px;
+	background-attachment: fixed;
+}
+
+#bagian1 h1{
+	font-size: 200px;
+	font-family: sans-serif;
+	padding-top: 50px;
+}
+
+#bagian1 h3{
+	font-size: 50px;
+	font-family: cursive;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	float: right;
+	font-color:white;
+}
+
+li a{
+	display: block;
+	padding: 50px;
+	text-decoration: none;
+	text-decoration-color: white;
+	font-family: cursive;
+	font-size: 20px;
+}
